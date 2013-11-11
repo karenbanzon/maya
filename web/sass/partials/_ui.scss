@@ -1,0 +1,38 @@
+// UI
+
+	//Imports
+	@import 'partials/elements/buttons';
+
+	// Breadcrumbs
+
+	.breadcrumb {
+		@include row;
+		background: $mayaRed;
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		a {
+			color: $white;
+			text-transform: none;
+			font-weight: 100;
+			&.active { font-weight: 400; }
+		}
+		span {
+			color: $white;
+			vertical-align: middle;
+		}
+	}
+
+	// Article Summary
+
+	.articleSummary {
+		@include clearfix;
+		margin-bottom: 20px;
+		img, & > div { float: left; }
+		& > div {
+			padding: 10px;
+			width: 585px;
+			* { display: block; }
+			h4 { margin-bottom: 10px; }
+			a { display: inline; }
+		}
+	}

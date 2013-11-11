@@ -2,10 +2,10 @@
 
     <?php require 'includes/header.php' ?>
 
-        <div class="main" id="home">
+        <div class="main" id="basic">
             <nav class="breadcrumb">
-                <a href="">The Maya Kitchen</a>
-                <span class="icon iconarrowright" aria-hidden="true"></span><a href="" class="active"> Articles</a>
+                <a href="index.php">The Maya Kitchen</a>
+                <span class="icon iconarrowright" aria-hidden="true"></span><a href="articles.php" class="active" onclick="return: false"> Articles</a>
             </nav>
 
             <aside>
@@ -27,7 +27,7 @@
                 <h1>ARTICLE TITLE</h1>
                 <article>
                     <img src="http://placehold.it/840x560">
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+<p class="articleContent">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
 

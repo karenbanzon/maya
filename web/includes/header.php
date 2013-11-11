@@ -25,8 +25,8 @@
     echo " class=\"active\""; ?>>Recipes</a>
                         <a href="articles.php" <?php if ($thisPage=="articles") 
     echo " class=\"active\""; ?>>Articles</a>
-                        <a href="kids.php" <?php if ($thisPage=="kids") 
-    echo " class=\"active\""; ?>>Kids' Corner</a>
+                        <!-- <a href="kids.php" <?php if ($thisPage=="kids") 
+    echo " class=\"active\""; ?>>Kids' Corner</a> -->
                         <a href="contact.php" <?php if ($thisPage=="contact") 
     echo " class=\"active\""; ?>>Contact</a>
                     </nav>  

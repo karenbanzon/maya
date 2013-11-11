@@ -1,0 +1,53 @@
+// Basic Styles
+
+	#basic {
+		.core > article {
+			img { width: 100%; }
+			padding: 20px;
+		}
+	}
+
+	#classes {
+		.class {
+			@extend .card;
+			height: 330px;
+			&:nth-child(3n + 1) {
+				@include last;
+			}
+			h4 {
+				color: $white;
+				background: $gray;
+				padding: 10px;
+			}
+		}
+	}
+
+	#recipes {
+		.card {
+			// height: 500px;
+			p { margin-bottom: 0; }
+			&:nth-child(3n) {
+				@include last;
+			}
+		}
+	}
+
+	#singleArticle {
+		&.core > article { padding: 0px; }
+		.articleContent {
+				padding: 0 20px;
+				white-space: pre-wrap;       /* css-3 */
+				white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+				white-space: -pre-wrap;      /* Opera 4-6 */
+				white-space: -o-pre-wrap;    /* Opera 7 */
+				line-height: 27px;
+		}
+	}
+
+	#contact {
+		h1 { border-bottom: 1px solid $ash; }
+		.details {
+			text-align: center;
+			p { margin-bottom: 0; }
+		}
+	}

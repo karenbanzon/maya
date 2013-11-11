@@ -36,3 +36,14 @@
 			a { display: inline; }
 		}
 	}
+
+	// Cards
+
+	.card {
+		background: $platinum;
+		width: 265px;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		div { padding: 10px; }
+	}

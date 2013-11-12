@@ -5,8 +5,8 @@
         <div class="main" id="grid">
             <h1>RECIPES</h1>
             <nav class="breadcrumb">
-                <a href="">The Maya Kitchen</a>
-                <span class="icon iconarrowright" aria-hidden="true"></span><a href="" class="active"> Recipes</a>
+                <a href="index.php">The Maya Kitchen</a>
+                <span class="icon iconarrowright" aria-hidden="true"></span><a href="#" class="active" onclick="return false"> Recipes</a>
             </nav>
 
             <aside>

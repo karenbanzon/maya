@@ -378,6 +378,7 @@ button.black:hover, button.black:focus, .button.black:hover, .button.black:focus
 /* line 17, ../sass/partials/_ui.scss */
 .breadcrumb a.active {
   font-weight: 400;
+  cursor: default;
 }
 /* line 19, ../sass/partials/_ui.scss */
 .breadcrumb span {
@@ -699,34 +700,43 @@ fieldset div {
 }
 
 /* line 11, ../sass/partials/specific/_basic.scss */
+#home .schedules div {
+  margin-bottom: 20px;
+}
+/* line 13, ../sass/partials/specific/_basic.scss */
+#home .schedules div a {
+  display: block;
+}
+
+/* line 18, ../sass/partials/specific/_basic.scss */
 #classes .class {
   height: 330px;
 }
-/* line 14, ../sass/partials/specific/_basic.scss */
+/* line 21, ../sass/partials/specific/_basic.scss */
 #classes .class:nth-child(3n + 1) {
   margin-right: 0;
 }
-/* line 17, ../sass/partials/specific/_basic.scss */
+/* line 24, ../sass/partials/specific/_basic.scss */
 #classes .class h4 {
   color: #fefefe;
   background: #555555;
   padding: 10px;
 }
 
-/* line 28, ../sass/partials/specific/_basic.scss */
+/* line 35, ../sass/partials/specific/_basic.scss */
 #recipes .card p, #recipes #classes .class p, #classes #recipes .class p {
   margin-bottom: 0;
 }
-/* line 29, ../sass/partials/specific/_basic.scss */
+/* line 36, ../sass/partials/specific/_basic.scss */
 #recipes .card:nth-child(3n), #recipes #classes .class:nth-child(3n), #classes #recipes .class:nth-child(3n) {
   margin-right: 0;
 }
 
-/* line 36, ../sass/partials/specific/_basic.scss */
+/* line 43, ../sass/partials/specific/_basic.scss */
 #singleArticle.core > article {
   padding: 0px;
 }
-/* line 37, ../sass/partials/specific/_basic.scss */
+/* line 44, ../sass/partials/specific/_basic.scss */
 #singleArticle .articleContent {
   padding: 0 20px;
   white-space: pre-wrap;
@@ -738,17 +748,26 @@ fieldset div {
   white-space: -o-pre-wrap;
   /* Opera 7 */
   line-height: 27px;
+  overflow: hidden;
+}
+/* line 52, ../sass/partials/specific/_basic.scss */
+#singleArticle .articleContent img {
+  margin-top: -40px;
+}
+/* line 53, ../sass/partials/specific/_basic.scss */
+#singleArticle .articleContent p {
+  margin: 0 60px;
 }
 
-/* line 48, ../sass/partials/specific/_basic.scss */
+/* line 58, ../sass/partials/specific/_basic.scss */
 #contact h1 {
   border-bottom: 1px solid #aaaaaa;
 }
-/* line 49, ../sass/partials/specific/_basic.scss */
+/* line 59, ../sass/partials/specific/_basic.scss */
 #contact .details {
   text-align: center;
 }
-/* line 51, ../sass/partials/specific/_basic.scss */
+/* line 61, ../sass/partials/specific/_basic.scss */
 #contact .details p {
   margin-bottom: 0;
 }

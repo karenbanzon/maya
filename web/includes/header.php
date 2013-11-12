@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <base href="http://maya.local/">
+
         <link rel="shortcut icon" href="/images/icons/favicon.ico" />
         <!-- Load Stylesheet -->
         <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">

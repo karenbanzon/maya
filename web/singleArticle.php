@@ -5,7 +5,7 @@
         <div class="main" id="basic">
             <nav class="breadcrumb">
                 <a href="index.php">The Maya Kitchen</a>
-                <span class="icon iconarrowright" aria-hidden="true"></span><a href="articles.php" class="active" onclick="return: false"> Articles</a>
+                <span class="icon iconarrowright" aria-hidden="true"></span><a href="#" class="active" onclick="return false"> Articles</a>
             </nav>
 
             <aside>

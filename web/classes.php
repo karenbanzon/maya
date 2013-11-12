@@ -5,8 +5,8 @@
         <div class="main" id="grid">
             <h1>CLASSES</h1>
             <nav class="breadcrumb">
-                <a href="">The Maya Kitchen</a>
-                <span class="icon iconarrowright" aria-hidden="true"></span><a href="" class="active"> Classes</a>
+                <a href="index.php">The Maya Kitchen</a>
+                <span class="icon iconarrowright" aria-hidden="true"></span><a href="#" class="active" onclick="return false"> Classes</a>
             </nav>
 
             <aside>

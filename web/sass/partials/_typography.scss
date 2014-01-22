@@ -1,22 +1,22 @@
 // Typographic Rules
 
 	//Font - Roboto
-	// @font-face {
-	// 	font-family: 'Roboto';
-	// 	src: url("http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
-	// 	-webkit-font-smoothing: antialiased;
-	// }
-
 	@font-face {
-		font-family: 'Book Antiqua';
-		src:url('/fonts/book_antiqua.eot');
-		src:url('/fonts/book_antiqua.eot?#iefix') format('embedded-opentype'),
-			url('/fonts/book_antiqua.woff') format('woff'),
-			url('/fonts/book_antiqua.ttf') format('truetype');
-		font-weight: lighter;
-		font-style: normal;
+		font-family: 'Roboto';
+		// src: url("http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
 		-webkit-font-smoothing: antialiased;
 	}
+
+	// @font-face {
+	// 	font-family: 'Book Antiqua';
+	// 	src:url('/fonts/book_antiqua.eot');
+	// 	src:url('/fonts/book_antiqua.eot?#iefix') format('embedded-opentype'),
+	// 		url('/fonts/book_antiqua.woff') format('woff'),
+	// 		url('/fonts/book_antiqua.ttf') format('truetype');
+	// 	font-weight: lighter;
+	// 	font-style: normal;
+	// 	-webkit-font-smoothing: antialiased;
+	// }
 
 
 $baseFont: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
@@ -44,11 +44,10 @@ $copyFont: 'Roboto', Helvetica, Arial, sans-serif;
 
 	h1,h2,h3,h4,h5,h6 { 
 		line-height: 1em;
-		font-family: $baseFont; 
-		font-weight: normal;
+		font-family: $baseFont;
 		color: $mayaRed;
 		margin: 0;
-		font-weight: 400;
+		font-weight: 500;
 		// text-transform: uppercase;
 	}
 

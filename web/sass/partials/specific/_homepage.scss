@@ -3,7 +3,10 @@
 #home {
 	.topTier {
 		@include clearfix;
-		margin: 20px 0 40px 0;
+		margin-bottom: 20px;
+		padding: 25px 0;
+		background: $white;
+		border-bottom: 1px solid $ash;
 		text-align: center;
 		& > div {
 			display: inline-block;
@@ -17,6 +20,7 @@
 				color: $white;
 			}
 		}
+		h1, h5 { font-weight: 300; margin-bottom: 20px; }
 	}
 }
 

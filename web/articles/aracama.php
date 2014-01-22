@@ -10,14 +10,14 @@
             </nav>
 
             <aside>
-                <div>
+                <!-- <div>
                     <h6>Categories</h6>
                     <nav class="vertical">
                         <a href="">Category A</a>
                         <a href="">Category B</a>
                         <a href="">Category C</a>
                     </nav>
-                </div>
+                </div> -->
                 <?php require '../includes/rotm.php' ?>
             </aside>
 

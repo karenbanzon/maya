@@ -9,11 +9,9 @@
             </nav>
 
             <aside>
-                <div>
-                    <h6>Sign Up For The Newsletter</h6>
-                    <img src="http://placehold.it/250x150">
-                </div>
                 <?php require 'includes/rotm.php' ?>
+                <?php require 'includes/newgen.php' ?>
+                <?php require 'includes/newsletter.php' ?>
             </aside>
 
             <div class="core" id="contact">

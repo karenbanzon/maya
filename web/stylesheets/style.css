@@ -94,11 +94,8 @@
 }
 
 @font-face {
-  font-family: 'Book Antiqua';
-  src: url("/fonts/book_antiqua.eot");
-  src: url("/fonts/book_antiqua.eot?#iefix") format("embedded-opentype"), url("/fonts/book_antiqua.woff") format("woff"), url("/fonts/book_antiqua.ttf") format("truetype");
-  font-weight: lighter;
-  font-style: normal;
+  font-family: 'Roboto';
+  src: url("http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic");
   -webkit-font-smoothing: antialiased;
 }
 
@@ -116,43 +113,42 @@ body {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
   color: #7a072e;
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-/* line 55, ../sass/partials/_typography.scss */
+/* line 54, ../sass/partials/_typography.scss */
 h1 {
   font-size: 2.5em;
 }
 
-/* line 56, ../sass/partials/_typography.scss */
+/* line 55, ../sass/partials/_typography.scss */
 h2 {
   font-size: 2.1em;
 }
 
-/* line 57, ../sass/partials/_typography.scss */
+/* line 56, ../sass/partials/_typography.scss */
 h3 {
   font-size: 1.875em;
 }
 
-/* line 58, ../sass/partials/_typography.scss */
+/* line 57, ../sass/partials/_typography.scss */
 h4 {
   font-size: 1.25em;
 }
 
-/* line 59, ../sass/partials/_typography.scss */
+/* line 58, ../sass/partials/_typography.scss */
 h5 {
   font-size: 1.125em;
 }
 
-/* line 60, ../sass/partials/_typography.scss */
+/* line 59, ../sass/partials/_typography.scss */
 h6 {
   font-size: 1em;
 }
 
-/* line 63, ../sass/partials/_typography.scss */
+/* line 62, ../sass/partials/_typography.scss */
 h6 {
   margin-bottom: 10px;
   border-bottom: 1px solid #aaaaaa;
@@ -161,7 +157,7 @@ h6 {
   text-align: left !important;
 }
 
-/* line 72, ../sass/partials/_typography.scss */
+/* line 71, ../sass/partials/_typography.scss */
 p {
   margin: 7px 0 25px 0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -169,7 +165,7 @@ p {
   font-weight: 300;
   line-height: 23px;
 }
-/* line 79, ../sass/partials/_typography.scss */
+/* line 78, ../sass/partials/_typography.scss */
 p.intro {
   width: 90%;
   margin: 50px auto 30px auto;
@@ -177,14 +173,14 @@ p.intro {
   line-height: 1.5em;
   text-align: center;
 }
-/* line 87, ../sass/partials/_typography.scss */
+/* line 86, ../sass/partials/_typography.scss */
 p.small {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5em;
 }
 
-/* line 95, ../sass/partials/_typography.scss */
+/* line 94, ../sass/partials/_typography.scss */
 blockquote {
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   font-size: 2.3em;
@@ -195,28 +191,28 @@ blockquote {
   line-height: 1.12em;
   letter-spacing: -0.05em;
 }
-/* line 105, ../sass/partials/_typography.scss */
+/* line 104, ../sass/partials/_typography.scss */
 blockquote:before {
   content: '\201C';
 }
-/* line 106, ../sass/partials/_typography.scss */
+/* line 105, ../sass/partials/_typography.scss */
 blockquote:after {
   content: '\201D';
 }
 
-/* line 110, ../sass/partials/_typography.scss */
+/* line 109, ../sass/partials/_typography.scss */
 nav a {
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
 }
 
-/* line 116, ../sass/partials/_typography.scss */
+/* line 115, ../sass/partials/_typography.scss */
 small, figcaption, caption {
   font-size: 0.75em;
   font-weight: 400;
 }
 
-/* line 122, ../sass/partials/_typography.scss */
+/* line 121, ../sass/partials/_typography.scss */
 .footnote {
   display: block;
   margin-bottom: 20px;
@@ -354,7 +350,8 @@ button.black:hover, button.black:focus, .button.black:hover, .button.black:focus
   clear: both;
   width: 1148px;
   margin: 0 auto;
-  background: #7a072e;
+  background: #555555;
+  border-top: 1px solid #fefefe;
   padding: 10px 20px;
   margin-bottom: 20px;
 }
@@ -369,24 +366,39 @@ button.black:hover, button.black:focus, .button.black:hover, .button.black:focus
 .breadcrumb:after {
   clear: both;
 }
-/* line 13, ../sass/partials/_ui.scss */
+/* line 14, ../sass/partials/_ui.scss */
 .breadcrumb a {
   color: #fefefe;
   text-transform: none;
   font-weight: 100;
 }
-/* line 17, ../sass/partials/_ui.scss */
+/* line 18, ../sass/partials/_ui.scss */
 .breadcrumb a.active {
   font-weight: 400;
   cursor: default;
 }
-/* line 19, ../sass/partials/_ui.scss */
+/* line 20, ../sass/partials/_ui.scss */
 .breadcrumb span {
   color: #fefefe;
   vertical-align: middle;
 }
 
 /* line 27, ../sass/partials/_ui.scss */
+.rotm {
+  overflow: hidden;
+}
+
+/* line 29, ../sass/partials/_ui.scss */
+.newgen {
+  text-align: center;
+}
+/* line 31, ../sass/partials/_ui.scss */
+.newgen img {
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* line 35, ../sass/partials/_ui.scss */
 .articleSummary {
   *zoom: 1;
   margin-bottom: 20px;
@@ -402,29 +414,29 @@ button.black:hover, button.black:focus, .button.black:hover, .button.black:focus
 .articleSummary:after {
   clear: both;
 }
-/* line 30, ../sass/partials/_ui.scss */
+/* line 38, ../sass/partials/_ui.scss */
 .articleSummary img, .articleSummary > div {
   float: left;
 }
-/* line 31, ../sass/partials/_ui.scss */
+/* line 39, ../sass/partials/_ui.scss */
 .articleSummary > div {
   padding: 10px;
   width: 585px;
 }
-/* line 34, ../sass/partials/_ui.scss */
+/* line 42, ../sass/partials/_ui.scss */
 .articleSummary > div * {
   display: block;
 }
-/* line 35, ../sass/partials/_ui.scss */
+/* line 43, ../sass/partials/_ui.scss */
 .articleSummary > div h4 {
   margin-bottom: 10px;
 }
-/* line 36, ../sass/partials/_ui.scss */
+/* line 44, ../sass/partials/_ui.scss */
 .articleSummary > div a {
   display: inline;
 }
 
-/* line 42, ../sass/partials/_ui.scss */
+/* line 50, ../sass/partials/_ui.scss */
 .card, #classes .class {
   background: #e7e7e7;
   width: 265px;
@@ -432,7 +444,7 @@ button.black:hover, button.black:focus, .button.black:hover, .button.black:focus
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 48, ../sass/partials/_ui.scss */
+/* line 56, ../sass/partials/_ui.scss */
 .card div, #classes .class div {
   padding: 10px;
 }
@@ -498,7 +510,7 @@ fieldset div {
   width: 1148px;
   margin: 0 auto;
   *zoom: 1;
-  background: #fefefe;
+  background: #7a072e;
 }
 /* line 50, ../sass/partials/_grid.scss */
 .siteHead:before, .siteHead:after {
@@ -566,16 +578,17 @@ fieldset div {
 /* line 50, ../sass/partials/_header.scss */
 .siteHead nav a {
   padding: 10px 20px 3px 20px;
-  color: #7a072e;
+  color: #e7e7e7;
+  font-weight: 500;
 }
-/* line 53, ../sass/partials/_header.scss */
+/* line 54, ../sass/partials/_header.scss */
 .siteHead nav a:hover, .siteHead nav a:focus {
-  border-bottom: 3px solid #aaaaaa;
-  color: #8e1b42;
+  border-bottom: 3px solid #fefefe;
+  color: #fefefe;
 }
-/* line 57, ../sass/partials/_header.scss */
+/* line 58, ../sass/partials/_header.scss */
 .siteHead nav a.active, .siteHead nav a:active {
-  border-bottom: 3px solid #7a072e;
+  border-bottom: 3px solid #fefefe;
 }
 
 /* line 3, ../sass/partials/_body.scss */
@@ -585,6 +598,9 @@ fieldset div {
   width: 1148px;
   margin: 0 auto;
   background: #fefefe;
+  overflow: hidden;
+  padding-bottom: 20px;
+  position: relative;
 }
 /* line 50, ../sass/partials/_grid.scss */
 .main:before, .main:after {
@@ -597,32 +613,44 @@ fieldset div {
 .main:after {
   clear: both;
 }
-/* line 7, ../sass/partials/_body.scss */
+/* line 9, ../sass/partials/_body.scss */
+.main:after {
+  height: 20px;
+  width: 100%;
+  background: #fefefe;
+  color: #fefefe;
+  position: absolute;
+  bottom: 0px;
+}
+/* line 18, ../sass/partials/_body.scss */
 .main aside {
   width: 272px;
   margin-right: 20px;
   float: left;
-  padding-left: 20px;
+  padding-bottom: 500em !important;
+  margin-bottom: -500em !important;
+  padding: 0 20px;
+  border-right: 1px solid #aaaaaa;
 }
-/* line 10, ../sass/partials/_body.scss */
+/* line 23, ../sass/partials/_body.scss */
 .main aside > div {
   margin-bottom: 40px;
 }
-/* line 11, ../sass/partials/_body.scss */
+/* line 24, ../sass/partials/_body.scss */
 .main aside .social {
   text-align: center;
   font-size: 3em;
 }
-/* line 14, ../sass/partials/_body.scss */
+/* line 27, ../sass/partials/_body.scss */
 .main aside .social a {
   padding: 0 10px;
   color: #aaaaaa;
 }
-/* line 17, ../sass/partials/_body.scss */
+/* line 30, ../sass/partials/_body.scss */
 .main aside .social a:hover, .main aside .social a:focus {
   color: #969696;
 }
-/* line 22, ../sass/partials/_body.scss */
+/* line 35, ../sass/partials/_body.scss */
 .main .core {
   width: 856px;
   margin-right: 20px;
@@ -630,17 +658,17 @@ fieldset div {
   margin-right: 0;
   padding-right: 20px;
 }
-/* line 27, ../sass/partials/_body.scss */
+/* line 40, ../sass/partials/_body.scss */
 .main .core > h1 {
   padding: 20px 0;
   text-align: center;
 }
-/* line 33, ../sass/partials/_body.scss */
+/* line 46, ../sass/partials/_body.scss */
 .main nav.vertical a {
   display: block;
   margin: 10px 0;
 }
-/* line 38, ../sass/partials/_body.scss */
+/* line 51, ../sass/partials/_body.scss */
 .main > h1 {
   margin-top: -75px;
   padding: 20px 0;
@@ -650,7 +678,10 @@ fieldset div {
 /* line 4, ../sass/partials/specific/_homepage.scss */
 #home .topTier {
   *zoom: 1;
-  margin: 20px 0 40px 0;
+  margin-bottom: 20px;
+  padding: 25px 0;
+  background: #fefefe;
+  border-bottom: 1px solid #aaaaaa;
   text-align: center;
 }
 /* line 50, ../sass/partials/_grid.scss */
@@ -664,30 +695,35 @@ fieldset div {
 #home .topTier:after {
   clear: both;
 }
-/* line 8, ../sass/partials/specific/_homepage.scss */
+/* line 11, ../sass/partials/specific/_homepage.scss */
 #home .topTier > div {
   display: inline-block;
   width: 375px;
   padding: 0 20px;
 }
-/* line 12, ../sass/partials/specific/_homepage.scss */
+/* line 15, ../sass/partials/specific/_homepage.scss */
 #home .topTier > div:last-child {
   margin-right: 0;
 }
-/* line 13, ../sass/partials/specific/_homepage.scss */
+/* line 16, ../sass/partials/specific/_homepage.scss */
 #home .topTier > div * {
   display: block;
   text-align: center;
   margin: 0 auto;
 }
-/* line 14, ../sass/partials/specific/_homepage.scss */
+/* line 17, ../sass/partials/specific/_homepage.scss */
 #home .topTier > div img {
   width: 100%;
 }
-/* line 15, ../sass/partials/specific/_homepage.scss */
+/* line 18, ../sass/partials/specific/_homepage.scss */
 #home .topTier > div a {
   background: #7a072e;
   color: #fefefe;
+}
+/* line 23, ../sass/partials/specific/_homepage.scss */
+#home .topTier h1, #home .topTier h5 {
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 /* line 4, ../sass/partials/specific/_basic.scss */
@@ -709,34 +745,62 @@ fieldset div {
 }
 
 /* line 18, ../sass/partials/specific/_basic.scss */
-#classes .class {
-  height: 330px;
+#classes > div {
+  display: block;
+  *zoom: 1;
 }
-/* line 21, ../sass/partials/specific/_basic.scss */
+/* line 50, ../sass/partials/_grid.scss */
+#classes > div:before, #classes > div:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 56, ../sass/partials/_grid.scss */
+#classes > div:after {
+  clear: both;
+}
+/* line 19, ../sass/partials/specific/_basic.scss */
+#classes .class {
+  height: 380px;
+}
+/* line 22, ../sass/partials/specific/_basic.scss */
 #classes .class:nth-child(3n + 1) {
   margin-right: 0;
 }
-/* line 24, ../sass/partials/specific/_basic.scss */
+/* line 25, ../sass/partials/specific/_basic.scss */
 #classes .class h4 {
   color: #fefefe;
   background: #555555;
   padding: 10px;
 }
 
-/* line 35, ../sass/partials/specific/_basic.scss */
+/* line 36, ../sass/partials/specific/_basic.scss */
 #recipes .card p, #recipes #classes .class p, #classes #recipes .class p {
   margin-bottom: 0;
 }
-/* line 36, ../sass/partials/specific/_basic.scss */
+/* line 37, ../sass/partials/specific/_basic.scss */
 #recipes .card:nth-child(3n), #recipes #classes .class:nth-child(3n), #classes #recipes .class:nth-child(3n) {
   margin-right: 0;
 }
 
-/* line 43, ../sass/partials/specific/_basic.scss */
+/* line 44, ../sass/partials/specific/_basic.scss */
 #singleArticle.core > article {
   padding: 0px;
 }
-/* line 44, ../sass/partials/specific/_basic.scss */
+/* line 45, ../sass/partials/specific/_basic.scss */
+#singleArticle.recipe {
+  padding-bottom: 20px;
+}
+/* line 47, ../sass/partials/specific/_basic.scss */
+#singleArticle.recipe h6 {
+  margin-top: 40px;
+}
+/* line 48, ../sass/partials/specific/_basic.scss */
+#singleArticle.recipe ol li {
+  margin-bottom: 20px;
+}
+/* line 51, ../sass/partials/specific/_basic.scss */
 #singleArticle .articleContent {
   padding: 0 20px;
   white-space: pre-wrap;
@@ -750,24 +814,24 @@ fieldset div {
   line-height: 27px;
   overflow: hidden;
 }
-/* line 52, ../sass/partials/specific/_basic.scss */
+/* line 59, ../sass/partials/specific/_basic.scss */
 #singleArticle .articleContent img {
   margin-top: -40px;
 }
-/* line 53, ../sass/partials/specific/_basic.scss */
+/* line 60, ../sass/partials/specific/_basic.scss */
 #singleArticle .articleContent p {
   margin: 0 60px;
 }
 
-/* line 58, ../sass/partials/specific/_basic.scss */
+/* line 65, ../sass/partials/specific/_basic.scss */
 #contact h1 {
   border-bottom: 1px solid #aaaaaa;
 }
-/* line 59, ../sass/partials/specific/_basic.scss */
+/* line 66, ../sass/partials/specific/_basic.scss */
 #contact .details {
   text-align: center;
 }
-/* line 61, ../sass/partials/specific/_basic.scss */
+/* line 68, ../sass/partials/specific/_basic.scss */
 #contact .details p {
   margin-bottom: 0;
 }
@@ -824,7 +888,7 @@ fieldset div {
 .siteFoot .social {
   float: left;
   font-size: 2em;
-  margin-left: 100px;
+  margin-left: 170px;
 }
 /* line 23, ../sass/partials/_footer.scss */
 .siteFoot .social a {

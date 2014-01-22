@@ -7,7 +7,8 @@
 
 	.breadcrumb {
 		@include row;
-		background: $mayaRed;
+		background: $gray;
+		border-top: 1px solid $white;
 		padding: 10px 20px;
 		margin-bottom: 20px;
 		a {
@@ -22,6 +23,13 @@
 		}
 	}
 
+	// Recipe Of The Month
+	.rotm { overflow: hidden;}
+
+	.newgen {
+		text-align: center;
+		img { width: 70%; margin-top: 10px; }
+	}
 	// Article Summary
 
 	.articleSummary {

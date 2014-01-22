@@ -3,10 +3,23 @@
 .main {
 	@include row();
 	background: $white;
+	overflow: hidden;
+	padding-bottom: 20px;
+	position: relative;
+	&:after {
+		height: 20px;
+		width: 100%;
+		background: $white;
+		color: $white;
+		position: absolute;
+		bottom: 0px;
+	}
 
 	aside {
 		@include col(3);
-		padding-left: 20px;
+		@include equalHeight();
+		padding: 0 20px;
+		border-right: 1px solid $ash;
 		& > div { margin-bottom: 40px; }
 		.social {
 			text-align: center;

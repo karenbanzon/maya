@@ -1,5 +1,5 @@
-<div>
+<div class="rotm">
     <h6>Recipe of the Month</h6>
-    <strong>Holiday Rum Ball Treats</strong>
-    <img src="images/essential/rotm/rotm.jpg">
+    <a href="recipes/crepe-covered-embutido.php"><strong>Crepe Covered Embutido</strong></a>
+    <img src="images/recipeImages/thumbs/thumb-20131205-1.jpg">
 </div>

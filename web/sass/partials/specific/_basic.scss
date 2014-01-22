@@ -15,9 +15,10 @@
 	}
 
 	#classes {
+		& > div { display: block; @include clearfix; }
 		.class {
 			@extend .card;
-			height: 330px;
+			height: 380px;
 			&:nth-child(3n + 1) {
 				@include last;
 			}
@@ -41,6 +42,12 @@
 
 	#singleArticle {
 		&.core > article { padding: 0px; }
+		&.recipe {
+			padding-bottom: 20px;
+			h6 { margin-top: 40px; }
+			ol li { margin-bottom: 20px; }
+			// img { margin-bottom: 20px; }
+		}
 		.articleContent {
 			padding: 0 20px;
 			white-space: pre-wrap;       /* css-3 */

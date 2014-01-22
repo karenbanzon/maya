@@ -11,54 +11,65 @@
 
             <aside>
                 <?php require 'includes/rotm.php' ?>
+                <?php require 'includes/newgen.php' ?>
+                <?php require 'includes/newsletter.php' ?>
             </aside>
 
             <div class="core" id="classes">
-                <h6>November 2013</h6>
-                <div class="class">
-                    <h4>Basic Baking</h4>
-                    <div>
-                        <strong>November 12 - November 15</strong>
-                        <p>Tuesday to Friday, 9AM-2PM</p>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
-                        <strong>Class Fee: </strong>P7,000
+                <div>
+                    <h6>Lifestyle Courses</h6>
+                    <div class="class">
+                        <h4>Christmas Dinner Menu</h4>
+                        <div>
+                            by Chef Charles Polonan<br><br>
+                            <strong>December 7</strong>
+                            <p>Saturday, 9AM-1PM</p>
+                            <p>Prepare a feast for your loved ones at home! Roast Turkey with stuffing, Crunchy Pork ribs, Baked Fish with mayo gelatin dressing, Beef Roulade, Salad green with reduce balsamic dressing.</p>
+                            <strong>Class Fee: </strong>P2,000
+                        </div>
+                    </div>
+                    <div class="class">
+                        <h4>Crazy Cupcakes and Cake Pops</h4>
+                        <div>
+                            by Chef Nikko Buendia<br><br>
+                            <strong>December 7</strong>
+                            <p>Saturday, 9AM-1PM</p>
+                            <p>Learn how to bake and decorate cupcakes and cake pops, Rainbow Cupcake with Vanilla, Buttercream, Calamansi Cupcake with Marsmallow Icing, Chocolate Bar Cupcakes and Sour Cream Chocolate Cupcake.</p>
+                            <strong>Class Fee: </strong>P1,750
+                        </div>
+                    </div>
+                    <div class="class">
+                        <h4>Cold Dishes for Noche Buena</h4>
+                        <div>
+                            by Chef Ben Casabon<br><br>
+                            <strong>December 14</strong>
+                            <p>Saturday, 9AM-1PM</p>
+                            <p>Fish Terrine with Shrimp, Pork and Chicken Lyonner, Beef and Pork Terrine, Chicken Terrine Florentine, Crunchy Fruit and Pasta Salad, Pasta Slaw Salad, Apple and Carrot Salad, Cold Meat Salad, Potato Salad.</p> 
+                            <strong>Class Fee: </strong>P1,500
+                        </div>
+                    </div>
+                    <div class="class">
+                        <h4>Healthy Breads</h4>
+                        <div>
+                            by Chef Roxanne Arcilla<br><br>
+                            <strong>December 14</strong>
+                            <p>Saturday, 9AM-1PM</p>
+                            <p>Learn how to prepare Squash bread, Sour dough, Banana bread, Whole wheat bread, and Malunggay sticks/loaf.</p>
+                            <strong>Class Fee: </strong>P1,200
+                        </div>
                     </div>
                 </div>
-                <div class="class">
-                    <h4>Bake, Pack, and Save!</h4>
-                    <div>
-                        <strong>November 16</strong>
-                        <p>Saturday, 9AM-1PM</p>
-                        <p>Creative Christmas Packaging &mdash; Make a good impression Learn how to pack your own Christmas goodies, Cakes, Cookies, Bars and Jams</p>
-                        <strong>Class Fee: </strong>P1,750
+                <!-- <div>
+                    <h6>Certificate Courses</h6>
+                    <div class="class">
+                        <h4>A Christmas Feast by Chef Fern Aracama</h4>
+                        <div>
+                            <strong>November 23</strong>
+                            <p>Saturday, 9AM - 1PM</p>
+                            <strong>Class Fee: </strong>P1,750
+                        </div>
                     </div>
-                </div>
-                <div class="class">
-                    <h4>Perk Me Up: Coffee 101</h4>
-                    <div>
-                        <strong>November 16</strong>
-                        <p>Saturday, 1:30PM - 5:30PM</p>
-                        <p>Coffee history, types of coffee beans, roasting techniques, machine know-how, actual preparation of hot and cold concoctions, techniques of steaming, frothing and foaming of milk, coffee latte art</p> 
-                        <strong>Class Fee: </strong>P1,500
-                    </div>
-                </div>
-                <div class="class">
-                    <h4>Basic Culinary</h4>
-                    <div>
-                        <strong>November 19 to November 22</strong>
-                        <p>Tuesday to Friday, 9AM-3PM</p>
-                        <p>Cooking Fundamentals and International Standard Techniques of meal preparation &mdash; from soup, salad, pasta, main courses, sandwiches to desserts for the home and Institutional Scale Kitchens with workshop</p>
-                        <strong>Class Fee: </strong>P8,000
-                    </div>
-                </div>
-                <div class="class">
-                    <h4>A Christmas Feast by Chef Fern Aracama</h4>
-                    <div>
-                        <strong>November 23</strong>
-                        <p>Saturday, 9AM - 1PM</p>
-                        <strong>Class Fee: </strong>P1,750
-                    </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

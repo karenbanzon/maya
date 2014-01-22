@@ -19,39 +19,11 @@
                     </nav>
                 </div> -->
                 <?php require 'includes/rotm.php' ?>
+                <?php require 'includes/newgen.php' ?>
+                <?php require 'includes/newsletter.php' ?>
             </aside>
 
-            <div class="core">
-                <h6>Recent Articles</h6>
-                <div class="articleSummary">
-                    <img src="images/articleImages/thumbs/thumb-20131112-1.jpg">
-                    <div>
-                        <a href="articles/aracama.php"><h4>Chef Fern Aracama Recreates  Childhood Media Noche</h4></a>
-                        Well known Chef Fernando &ldquo;Fern&rdquo; Aracama recalls fond memories of Christmas past in his cooking class at The Maya Kitchen on November 23, Saturday from 9am&ndash;1pm. A very young boy walking home from midnight mass with his family is something Chef Fern remembers to this day. He took inspiration from the traditional Media Noche meal that awaited them but this time he shares... [<a href="articles/aracama.php">Read More</a>]
-                    </div>
-                </div>
-                <div class="articleSummary">
-                    <img src="http://placehold.it/250x150">
-                    <div>
-                        <a href=""><h4>Article Title</h4></a>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.. [<a href="">Read More</a>]
-                    </div>
-                </div>
-                <div class="articleSummary">
-                    <img src="http://placehold.it/250x150">
-                    <div>
-                        <a href=""><h4>Article Title</h4></a>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.. [<a href="">Read More</a>]
-                    </div>
-                </div>
-                <div class="articleSummary">
-                    <img src="http://placehold.it/250x150">
-                    <div>
-                        <a href=""><h4>Article Title</h4></a>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.. [<a href="">Read More</a>]
-                    </div>
-                </div>
-            </div>
+            <?php require 'includes/recentArticles.php' ?>
 
         </div>
 

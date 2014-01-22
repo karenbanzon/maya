@@ -11,71 +11,58 @@
 
             <aside>
                 <?php require 'includes/rotm.php' ?>
+                <?php require 'includes/newgen.php' ?>
+                <?php require 'includes/newsletter.php' ?>
             </aside>
 
             <div class="core" id="recipes">
                 <!-- <h6>November 2013</h6> -->
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131205-1.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/crepe-covered-embutido.php"><h4>Crepe Covered Embutido</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131205-2.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/chicken-pastel-puff.php"><h4>Savory Chicken Pastel Puff</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131205-3.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/holiday-pandesal.php"><h4>Holiday Toasted Pandesal Pleasers</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131113-1.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/rum-ball.php"><h4>Holiday Rum Ball Treats</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131113-2.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/muffaletta-sandwich.php"><h4>Muffaletta Sandwich</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131113-3.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/cheesecake-crunch.php"><h4>Cheesecake Crunch</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131113-4.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/blinis-shrimp.php"><h4>Blinis Shrimp Torte Canapes</h4></a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="http://placehold.it/265x180">
+                    <img src="images/recipeImages/thumbs/thumb-20131113-5.jpg">
                     <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="http://placehold.it/265x180">
-                    <div>
-                        <a href=""><h4>Recipe Name</h4></a>
-                        <p>Basic Baking Techniques applicable to small and commercial scale production of recipes and formulations of quick breads , pies, cookies, cakes &amp; other bread varieties</p>
+                        <a href="recipes/vegetarian-spring-roll.php"><h4>Fresh Vegetarian Spring Roll</h4></a>
                     </div>
                 </div>
             </div>
